@@ -30,7 +30,7 @@ const uint8_t PIN_CS = 13;
 SPIClass *_spi = nullptr;
 
 // Extended Unique Identifier register. 64-bit device identifier. Register file: 0x01
-char EUI[] = "AA:BB:CC:DD:EE:FF:00:00";
+const char EUI[] = "AA:BB:CC:DD:EE:FF:00:00";
 
 volatile uint32_t blink_rate = 200;
 
